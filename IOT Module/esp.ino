@@ -60,7 +60,7 @@ void callback(char *topic, byte *payload, unsigned int length) {
   for (int i = 0; i < length; i++) {
     Serial.write((char)payload[i]);
   }
-    Serial1.write(payload, length); 
+    Serial1.printIn(payload); 
   Serial.println();
 }
 
