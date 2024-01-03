@@ -16,8 +16,11 @@ const char *outtopic6 = "FireTemperatureSensor"; //send firesensorvalue
 const char *mqtt_username = "";
 const char *mqtt_password = "";
 const int mqtt_port = 1883;
+#define FirebaseHost  "https://iot-warehouse-sensor-network-default-rtdb.firebaseio.com/"
+#define Auth   "AIzaSyAMHVblWe11i10lYDIi0AFOyOUntvh7Fbw"
 WiFiClient espClient;
 PubSubClient client(espClient);
+Firebase firebase(FirebaseHost);
 
 void setup() {
   Serial.begin(9600);
