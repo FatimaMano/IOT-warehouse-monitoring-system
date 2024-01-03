@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\delay_Macro.inc</FILE>
+  <FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\uartMacros.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\Debug\AssemblerApplication2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication2.map</FILE>
+  <FILE>AssemblerApplication2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>17</LINE></RESET>
+  <loop><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>39</LINE></loop>
+  <BUZZER_ON><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>84</LINE></BUZZER_ON>
+  <BUZZER_OFF><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>87</LINE></BUZZER_OFF>
+  <wait_temp><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>51</LINE></wait_temp>
+  <LED_ON><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>82</LINE></LED_ON>
+  <FLAME_CHECK><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>64</LINE></FLAME_CHECK>
+  <wait_flame><FILE>C:\Users\DELL\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm</FILE><LINE>71</LINE></wait_flame>
+ </LABELS>
+</ASSEMBLER_INFO>
